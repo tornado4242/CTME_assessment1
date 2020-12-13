@@ -4,7 +4,7 @@ node {
 
     env.AWS_ECR_LOGIN=true
     def newApp
-    def registry = 'tornado4242/ctme_assessment'
+    def registry = 'hub.docker.com/repository/docker/tornado4242/ctme_assessment'
     def registryCredential = 'dockerhub'
 	
 	stage('Git') {
